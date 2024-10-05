@@ -35,7 +35,7 @@ To set up the project, follow these steps:
    cd 3d-tooth-reconstruction
 2. Install the required packages
    ```bash
-  pip install trimesh
+   pip install trimesh
 
 
 ## Project Overview
