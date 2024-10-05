@@ -27,7 +27,7 @@ This project includes the following key components:
 
 2. **Data Preprocessing:** Implement preprocessing techniques to convert 3D models into point clouds, ensuring they are suitable for deep learning applications.
 
-<img src="assets\bezier_sub_demo.gif" />
+<img src="assets\3D_Toothmodel_Pointcloud.gif" />
 
 3. **Variational Autoencoder (VAE) Design:** Develop a VAE that learns the statistical distribution of the 3D data, enabling effective reconstruction and generation of new tooth models.
 
