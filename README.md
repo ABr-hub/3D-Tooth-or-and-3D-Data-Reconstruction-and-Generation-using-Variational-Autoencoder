@@ -23,7 +23,7 @@ This project addresses the need for advanced modeling techniques in dentistry, a
 ### Content
 This project includes the following key components:
 
-1. **Synthetic Tooth Model Creation:** Generate synthetic tooth models that serve as placeholders for real 3D data, providing a foundation for training and evaluation of the model.
+1. **Synthetic Tooth Model Creation:** Generate synthetic tooth models that serve as placeholders for real 3D data, providing a foundation for training and evaluation of the model. Here we start with a simple 3D Elipsoid.
 
 2. **Data Preprocessing:** Implement preprocessing techniques to convert 3D models into point clouds, ensuring they are suitable for deep learning applications.
 
