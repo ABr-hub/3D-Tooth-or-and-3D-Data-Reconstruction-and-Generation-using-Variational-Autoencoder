@@ -21,11 +21,15 @@ This project addresses the need for advanced modeling techniques in dentistry, a
 *While this project focuses on 3D data of teeth, it can be adapted for various applications involving 3D data in other fields.*
 
 ### Content
-- **Data Preparation:** Instructions on how to prepare and format the input point clouds.
-- **Model Architecture:** Overview of the VAE architecture and training process.
-- **Training Procedure:** Step-by-step guide to training the VAE with real or synthetic data.
-- **Evaluation Metrics:** Details on performance metrics such as Chamfer Distance to assess model performance.
-- **Visualization:** Methods to visualize point clouds, latent spaces, and reconstructed models.
+This project includes the following key components:
+
+1. **Synthetic Tooth Model Creation:** Generate synthetic tooth models that serve as placeholders for real 3D data, providing a foundation for training and evaluation of the model.
+
+2. **Data Preprocessing:** Implement preprocessing techniques to convert 3D models into point clouds, ensuring they are suitable for deep learning applications.
+
+3. **Variational Autoencoder (VAE) Design:** Develop a VAE that learns the statistical distribution of the 3D data, enabling effective reconstruction and generation of new tooth models.
+
+4. **Model Application:** Apply the trained VAE to reconstruct existing 3D models and generate new synthetic tooth data, facilitating quantitative and qualitative analysis.
 
 ## Installation Instructions
 To set up the project, follow these steps:
