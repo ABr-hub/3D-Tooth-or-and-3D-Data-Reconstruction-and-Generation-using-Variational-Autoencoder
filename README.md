@@ -47,6 +47,14 @@ To use the model for reconstruction or generation of 3D tooth models, run the fo
 
 Make sure to adjust the configuration parameters in the script as needed.
 
+### Contributing
+Contributions are welcome! If you would like to contribute, please follow these steps:
+
+  1. Fork the repository.
+  2. Create a new branch for your feature or bug fix.
+  3. Commit your changes and push the branch.
+  4. Create a pull request with a detailed description of your changes.
+
 
 
 
