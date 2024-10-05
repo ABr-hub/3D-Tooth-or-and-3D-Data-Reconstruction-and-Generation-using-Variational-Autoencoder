@@ -3,6 +3,9 @@ This project utilizes a Variational Autoencoder (VAE) to reconstruct and generat
 
 **Repository content**
   1. Project description
+  2. Installation
+  3. Usage
+  4. Contributing
 
 
 ## Project Description
