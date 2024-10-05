@@ -8,6 +8,11 @@ This project utilizes a Variational Autoencoder (VAE) to reconstruct and generat
 ## Project Description
 ### Motivation
 
+**Possible Applications**
+1. Automated Diagnosis: A VAE can analyze 3D dental scans to identify abnormalities or conditions such as cavities, misalignment, or periodontal disease. By learning from a variety of healthy and unhealthy tooth structures, it can assist dentists in making accurate diagnoses.
+2. Custom Prosthetics and Implants: The model can generate highly personalized dental implants and prosthetics based on a patient's unique dental morphology. This results in improved fit and functionality, enhancing the overall patient experience.
+3. Predictive Analytics for Treatment Outcomes: Utilizing historical treatment data, a VAE can help predict the outcomes of various dental procedures. This assists dental professionals in choosing the most effective treatment options for their patients.
+
 ### Content
 
 
