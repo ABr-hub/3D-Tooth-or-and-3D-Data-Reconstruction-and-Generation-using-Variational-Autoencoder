@@ -27,6 +27,15 @@ This project addresses the need for advanced modeling techniques in dentistry, a
 - **Evaluation Metrics:** Details on performance metrics such as Chamfer Distance to assess model performance.
 - **Visualization:** Methods to visualize point clouds, latent spaces, and reconstructed models.
 
+## Installation Instructions
+To set up the project, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/3d-tooth-reconstruction.git
+   cd 3d-tooth-reconstruction
+2. Install the required packages
+   ```bash
+  pip install trimesh
 
 
 ## Project Overview
