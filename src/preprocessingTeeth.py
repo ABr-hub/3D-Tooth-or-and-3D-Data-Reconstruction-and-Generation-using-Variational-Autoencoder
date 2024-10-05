@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-# @Author: Philipp N. Mueller
+# @Author: ABr_hub
 # @Date:   2024-10-03 22:18:23
-# @Last Modified by:   Philipp N. Mueller
-# @Last Modified time: 2024-10-05 12:21:08
+# @Last Modified by:   ABr_hub
+# @Last Modified time: 2024-10-05 15:55:06
 
 
 import trimesh
-import numpy as np
 import matplotlib.pyplot as plt
 
 

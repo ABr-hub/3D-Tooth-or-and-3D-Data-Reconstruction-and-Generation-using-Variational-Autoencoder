@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# @Author: Philipp N. Mueller
+# @Author: ABr_hub
 # @Date:   2024-10-05 11:30:01
-# @Last Modified by:   Philipp N. Mueller
-# @Last Modified time: 2024-10-05 12:29:12
+# @Last Modified by:   ABr_hub
+# @Last Modified time: 2024-10-05 15:54:53
 
 import torch
 from scipy.spatial import distance
