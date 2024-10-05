@@ -35,7 +35,8 @@ This project includes the following key components:
    *For more details see the respective folder*
 
 5. **Model Application:** Apply the trained VAE to reconstruct existing 3D models and generate new synthetic tooth data, facilitating quantitative and qualitative analysis.
-   <img src="assets\Plot_recon_&_generated.png" width="300"/>
+
+     <img src="assets\Plot_recon_&_generated.png" width="400"/>
 
 ## Installation Instructions
 To set up the project, follow these steps:
