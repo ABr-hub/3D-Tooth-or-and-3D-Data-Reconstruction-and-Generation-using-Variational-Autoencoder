@@ -7,7 +7,7 @@ This project utilizes a Variational Autoencoder (VAE) to reconstruct and generat
   3. Usage
   4. Contributing
 
-(:exclamation: ***This repository is under construction, please be patient***)
+( :exclamation: ***This repository is under construction, please be patient***)
 
 ## Project Description
 ### Motivation
