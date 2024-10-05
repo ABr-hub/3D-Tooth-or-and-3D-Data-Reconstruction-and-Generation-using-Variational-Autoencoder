@@ -14,9 +14,9 @@ This project utilizes a Variational Autoencoder (VAE) to reconstruct and generat
 This project addresses the need for advanced modeling techniques in dentistry, allowing for the reconstruction and generation of detailed 3D tooth models. By employing a VAE, the project leverages the power of machine learning to enhance dental applications, improving diagnostics, treatment planning, and overall patient care.
 
 **Possible Applications**
-1. Automated Diagnosis: A VAE can analyze 3D dental scans to identify abnormalities or conditions such as cavities, misalignment, or periodontal disease. By learning from a variety of healthy and unhealthy tooth structures, it can assist dentists in making accurate diagnoses.
-2. Custom Prosthetics and Implants: The model can generate highly personalized dental implants and prosthetics based on a patient's unique dental morphology. This results in improved fit and functionality, enhancing the overall patient experience.
-3. Predictive Analytics for Treatment Outcomes: Utilizing historical treatment data, a VAE can help predict the outcomes of various dental procedures. This assists dental professionals in choosing the most effective treatment options for their patients.
+1. **Automated Diagnosis**: A VAE can analyze 3D dental scans to identify abnormalities or conditions such as cavities, misalignment, or periodontal disease. By learning from a variety of healthy and unhealthy tooth structures, it can assist dentists in making accurate diagnoses.
+2. **Custom Prosthetics and Implants**: The model can generate highly personalized dental implants and prosthetics based on a patient's unique dental morphology. This results in improved fit and functionality, enhancing the overall patient experience.
+3. **Predictive Analytics for Treatment Outcomes**: Utilizing historical treatment data, a VAE can help predict the outcomes of various dental procedures. This assists dental professionals in choosing the most effective treatment options for their patients.
 
 *While this project focuses on 3D data of teeth, it can be adapted for various applications involving 3D data in other fields.*
 
