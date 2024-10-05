@@ -34,7 +34,7 @@ This project includes the following key components:
 4. **Variational Autoencoder (VAE) Design:** Develop a VAE that learns the statistical distribution of the 3D data, enabling effective reconstruction and generation of new tooth models.
    *For more details see the respective folder*
 
-5. **Model Application:** Apply the trained VAE to reconstruct existing 3D models (e.g to eliminate noise or incomplete areas in order to obtain higher-quality data) and generate new synthetic tooth data, facilitating quantitative and qualitative analysis.
+5. **Model Application:** Apply the trained VAE to reconstruct existing 3D models (e.g to eliminate noise or incomplete areas in order to obtain higher-quality data) and generate new synthetic tooth data, facilitating quantitative and qualitative analysis. *(left: reconstruction, right: generated)*
 
      <img src="assets\Plot_recon_&_generated.png" width="500"/>
 
