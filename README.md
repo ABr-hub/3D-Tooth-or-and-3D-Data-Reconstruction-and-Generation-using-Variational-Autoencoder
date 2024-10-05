@@ -33,11 +33,15 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/yourusername/3d-tooth-reconstruction.git
    cd 3d-tooth-reconstruction
-2. Install the required packages
+2. Install the required packages (e.g.)
    ```bash
    pip install trimesh
 
+## Usage
+To use the model for reconstruction or generation of 3D tooth models, run the following command:
+```bash
+   python main.py
 
-## Project Overview
+
 
 
