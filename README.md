@@ -6,4 +6,11 @@ This project utilizes a Variational Autoencoder (VAE) to reconstruct and generat
 
 
 ## Project Description
+### Motivation
+
+### Content
+
+
+## Project Overview
+
 
