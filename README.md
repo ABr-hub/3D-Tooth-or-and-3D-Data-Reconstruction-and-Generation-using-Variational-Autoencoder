@@ -58,7 +58,7 @@ This project includes the following key components:
      * For real-world applications (e.g., dental prosthetics, 3D modeling), further optimization is required to improve the quality and diversity of the generated data.
      * Possible improvements could involve using a larger dataset and a deeper VAE model to capture more complex patterns.
   
-       💡 I integrated a more sophisticated cnn-vae version into the respective file. Feel free to experiment with that or try other architectures.
+       💡 ***I integrated a more sophisticated cnn-vae version into the respective file. Feel free to experiment with that or try other architectures.***
      
 
 ## Installation Instructions
