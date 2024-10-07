@@ -42,7 +42,7 @@ This project includes the following key components:
      <img src="assets\Plot_recon_&_generated.png" width="500"/>
      
 6. **Conclusion**
-     Reconstruction Results:
+   Reconstruction Results:
      * The reconstructed point clouds demonstrate that the VAE captures the underlying features of the input data (synthetic 3D teeth) reasonably well.
      * While small differences between the original and reconstructed point clouds are noticeable, the overall shape and basic structures are preserved.
      * This indicates that the VAE is capable of learning the statistical distributions of the input data and reconstructing them with sufficient accuracy.
