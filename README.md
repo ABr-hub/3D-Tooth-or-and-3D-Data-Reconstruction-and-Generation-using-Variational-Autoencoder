@@ -37,9 +37,27 @@ This project includes the following key components:
    
      <img src="assets\VAE_.png" width="500"/>
 
-6. **Model Application:** Apply the trained VAE to reconstruct existing 3D models (e.g to eliminate noise or incomplete areas in order to obtain higher-quality data) and generate new synthetic tooth data, facilitating quantitative and qualitative analysis. *(left: reconstruction, right: generated)*
+5. **Model Application:** Apply the trained VAE to reconstruct existing 3D models (e.g to eliminate noise or incomplete areas in order to obtain higher-quality data) and generate new synthetic tooth data, facilitating quantitative and qualitative analysis. *(left: reconstruction, right: generated)*
 
      <img src="assets\Plot_recon_&_generated.png" width="500"/>
+
+     Reconstruction Results: \
+     The reconstructed point clouds demonstrate that the VAE captures the underlying features of the input data (synthetic 3D teeth) reasonably well.
+      While small differences between the original and reconstructed point clouds are noticeable, the overall shape and basic structures are preserved.
+      This indicates that the VAE is capable of learning the statistical distributions of the input data and reconstructing them with sufficient accuracy.
+
+Generation Results:
+
+    The generated point clouds show larger deviations and lack of detail compared to the original data.
+    The generated tooth shapes appear "blurry" or not precise enough for real-world applications.
+    This suggests that the complexity of the generated 3D data is not sufficient to capture finer structures typically found in real tooth data.
+
+Interpretation:
+
+    The VAE performs well in reconstructing previously seen data but struggles with generating completely new data.
+    For real-world applications (e.g., dental prosthetics, 3D modeling), further optimization is required to improve the quality and diversity of the generated data.
+    Possible improvements could involve using a larger dataset and a deeper VAE model to capture more complex patterns.
+     
 
 ## Installation Instructions
 To set up the project, follow these steps:
