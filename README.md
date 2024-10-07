@@ -50,7 +50,7 @@ This project includes the following key components:
 
      Generation Results:
      * The generated point clouds show larger deviations and lack of detail compared to the original data.
-     * The generated tooth shapes appear "blurry" or not precise enough for real-world applications.
+     * The generated shapes appear "blurry" or not precise enough for real-world applications.
      * This suggests that the complexity of the generated 3D data is not sufficient to capture finer structures typically found in real tooth data.
 
      Interpretation:
