@@ -32,7 +32,7 @@ This project includes the following key components:
 
    <img src="assets\3D_Toothmodel_Pointcloud.gif" width="300"/>
 
-4. **Variational Autoencoder (VAE) Design:** Develop a VAE that learns the statistical distribution of the 3D data, enabling effective reconstruction and generation of new tooth models. The basic working principle is depicted below
+4. **Variational Autoencoder (VAE) Design:** Develop a VAE that learns the statistical distribution of the 3D data, enabling effective reconstruction and generation of new tooth models. The basic working principle is depicted below. \
    *For more details see the respective folder*
    
      <img src="assets\VAE_.png" width="500"/>
