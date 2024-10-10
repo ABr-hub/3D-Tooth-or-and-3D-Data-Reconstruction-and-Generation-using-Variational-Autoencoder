@@ -2,7 +2,7 @@
 # @Author: ABr_hub
 # @Date:   2024-10-03 22:18:23
 # @Last Modified by:   ABr_hub
-# @Last Modified time: 2024-10-09 22:07:34
+# @Last Modified time: 2024-10-10 21:18:49
 
 
 import trimesh
@@ -64,8 +64,12 @@ def visualize_pointcloud(points, title="", figsize=(8, 6)):
     ax = fig.add_subplot(111, projection='3d')
 
     # Plotting the point cloud
-    ax.scatter(points[:, 0], points[:, 1], points[:, 2], color='b')  
-    ax.set_title(title)
+    try:
+        ax.scatter(points[:, 0], points[:, 1], points[:, 2], color='b')  
+        ax.set_title(title)
+    except:
+        ax.voxels(np.squeeze(points), facecolors='blue', edgecolor='k')
+           
     plt.show()
 
 
