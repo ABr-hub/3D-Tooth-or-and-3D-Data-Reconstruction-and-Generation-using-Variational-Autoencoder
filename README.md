@@ -57,8 +57,11 @@ This project includes the following key components:
      * The VAE performs well in reconstructing previously seen data but struggles with generating completely new data.
      * For real-world applications (e.g., dental prosthetics, 3D modeling), further optimization is required to improve the quality and diversity of the generated data.
      * Possible improvements could involve using a larger dataset and a deeper VAE model to capture more complex patterns.
+
+
   
 💡 ***I integrated a more sophisticated cnn-vae version into the respective file. Feel free to experiment with that or try other architectures.***
+
 The basic working principle of the vae remains the same. But instead of using a point cloud with 1024 points, each having an x, y, and z coordinate (making the shape $(B,1024,3)$), we use a voxel grid, which represents the 3D space as small cubes or boxes.
      
 Using a voxel grid is a structured way of representing 3D data. A voxel grid divides the 3D space into small cubes (voxels), similar to how a 2D image divides the space into pixels. Each voxel in the grid is either occupied (1) or empty (0), representing whether part of the object occupies that part of space. The voxel grid can have dimensions like $(B,32,32,32)$, where:
