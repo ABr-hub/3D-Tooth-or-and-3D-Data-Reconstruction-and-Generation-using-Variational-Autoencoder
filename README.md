@@ -67,7 +67,14 @@ The basic working principle of the vae remains the same. But instead of using a 
 Using a voxel grid is a structured way of representing 3D data. A voxel grid divides the 3D space into small cubes (voxels), similar to how a 2D image divides the space into pixels. Each voxel in the grid is either occupied (1) or empty (0), representing whether part of the object occupies that part of space. The voxel grid can have dimensions like $(B,32,32,32)$, where:
 
 * $B$ is the batch size,
-* "32" is the resolution of the voxel grid along each dimension $(x, y, z)$.
+* $32$ is the resolution of the voxel grid along each dimension $(x, y, z)$.
+
+A sample voxel grid of a synthetic tooth can be seen below:
+
+<img src="assets\3D_Voxel_Grid-png" width="300"/>
+
+
+
 
 
 ## Installation Instructions
