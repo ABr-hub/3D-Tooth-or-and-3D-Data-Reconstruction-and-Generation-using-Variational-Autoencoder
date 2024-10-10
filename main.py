@@ -2,7 +2,7 @@
 # @Author: ABr_hub
 # @Date:   2024-10-03 22:18:53
 # @Last Modified by:   ABr_hub
-# @Last Modified time: 2024-10-10 21:22:19
+# @Last Modified time: 2024-10-10 21:27:13
 
 
 import os
@@ -268,19 +268,6 @@ def main(vae_type='linear'):
         
         plt.show()
         
-        
-    
-    # Visualize results
-    fig = plt.figure(figsize=(20,10))
-    
-    # Original vs. reconstruction
-    ax1 = fig.add_subplot(111, projection='3d')
-    ax1.voxels(voxel_bool_org, facecolors='blue', edgecolor='k')
-        
-    plt.show()
-        
-    
-    
     
     # Visualize latent space
     # ... 
