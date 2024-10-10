@@ -71,7 +71,7 @@ Using a voxel grid is a structured way of representing 3D data. A voxel grid div
 
 A sample voxel grid of a synthetic tooth can be seen below:
 
-<img src="assets\3D_Voxel_Grid.png" width="300"/>
+  <img src="assets\3D_Voxel_Grid.PNG" width="300"/>
 
 
 
