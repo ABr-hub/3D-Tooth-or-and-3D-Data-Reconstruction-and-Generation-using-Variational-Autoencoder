@@ -60,7 +60,7 @@ This project includes the following key components:
 
 
   
-💡 ***I integrated a more sophisticated cnn-vae version into the respective file. Feel free to experiment with that or try other architectures.***
+💡 ###***I integrated a more sophisticated cnn-vae version into the respective file. Feel free to experiment with that or try other architectures.***
 
 The basic working principle of the vae remains the same. But instead of using a point cloud with 1024 points, each having an x, y, and z coordinate (making the shape $(B,1024,3)$), we use a voxel grid, which represents the 3D space as small cubes or boxes.
      
