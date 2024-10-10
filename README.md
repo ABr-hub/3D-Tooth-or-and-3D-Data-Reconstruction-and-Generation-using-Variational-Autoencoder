@@ -70,8 +70,8 @@ Using a voxel grid is a structured way of representing 3D data. A voxel grid div
 * $32$ is the resolution of the voxel grid along each dimension $(x, y, z)$.
 
 A sample voxel grid of a synthetic tooth can be seen below:
-
-    <img src="assets\3D_Voxel_Grid.PNG" width="300"/>
+  
+  <img src="assets\3D_Voxel_Grid.PNG" width="300"/>
 
 
 
